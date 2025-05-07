@@ -12,15 +12,7 @@ function ImageScroller(){
 
     const images=[pic1, pic2 , pic3,pic4,pic5]
 
-    const [currentIndex,SetCurrentIndex]=useState(0)
-
-    const nextImage=()=> {
-        SetCurrentIndex((prevIndex)=>(prevIndex+1)%images.length)
-    }
-
-    const prevImage =()=>{
-        SetCurrentIndex((prevIndex)=>(prevIndex-1 +images.length)%images.length)
-    }
+    
     return(
         <Carousel data-bs-theme="dark" indicators={false}>
       <Carousel.Item>
