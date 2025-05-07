@@ -1,4 +1,4 @@
-import React , {useState} from 'react';
+import React from 'react';
 import "./ImageScroller.css";
 import pic1 from '../Images/pic-1.jpg';
 import pic2 from '../Images/pic-2.jpg';
