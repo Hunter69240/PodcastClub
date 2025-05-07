@@ -1,0 +1,38 @@
+.footer {
+    background-color: rgb(8, 23, 23); /* Dark background color */
+    padding: 10px;
+    color: rgb(241, 249, 249); /* Light text color */
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto; /* Forces footer to stay at the bottom */
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 20px;
+}
+.follow{
+    display: flex;
+    justify-content: flex-start;
+}
+.social-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start; /* Align items to the center */
+    gap: 20px; /* Space between icons */
+}
+
+.social-links a {
+    color: rgb(241, 249, 249);
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #ff6347;
+}
+
+.social-links a svg {
+    transition: color 0.3s ease;
+}
