@@ -9,6 +9,8 @@
     margin-top: auto; /* Forces footer to stay at the bottom */
 }
 
+
+
 .footer-content p {
     margin: 0;
     font-size: 20px;
@@ -22,6 +24,7 @@
     display: flex;
     justify-content: flex-start; /* Align items to the center */
     gap: 20px; /* Space between icons */
+   
 }
 
 .social-links a {

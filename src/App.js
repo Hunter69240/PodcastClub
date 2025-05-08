@@ -6,12 +6,9 @@ import AboutUs from '../src/Screens/AboutUs'; // Make sure the path is correct
 function App() {
   return (
     <Router>
-      
         <Routes>
-          {/* Default route points to HomePage */}
           <Route path="/" element={<Home />} />
           <Route path="/AboutUs" element={<AboutUs />} />
-          {/* Add other routes here if needed */}
         </Routes>
       
     </Router>

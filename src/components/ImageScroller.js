@@ -11,29 +11,29 @@ import Carousel from 'react-bootstrap/Carousel';
 function ImageScroller(){
 
     const images=[pic1, pic2 , pic3,pic4,pic5]
-
+    const interval=2500
     
     return(
-        <Carousel data-bs-theme="dark" indicators={false}>
-      <Carousel.Item>
+        <Carousel data-bs-theme="dark" indicators={false} controls={false}>
+      <Carousel.Item interval={interval}>
         <div className='image-container'>
         <img
           className="image"
-          src={images[0]}
+          src={images[3]}
           alt="First slide"
         />
         </div>
         
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item interval={interval}>
         <img
           className="image"
-          src={images[3]}
+          src={images[0]}
           alt="Second slide"
         />
         
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item interval={interval}>
         <img
           className="image"
           src={images[4]}

@@ -4,8 +4,11 @@ import './Footer.css'; // Make sure to import your CSS file
 
 function Footer() {
   return (
+    
     <footer className="footer">
+      
       <div className="footer-content">
+      
         <p className='follow'>Follow us on social media</p>
 
         <div className="social-links">
@@ -18,7 +21,7 @@ function Footer() {
             <FaYoutube size={30} />
           </a>
 
-          <a href="https://www.linkedin.com/in/aadish-d-somayaji-787b952a8" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/company/atria-podcast-club" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={30} />
           </a>
         </div>
