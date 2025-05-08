@@ -14,7 +14,7 @@ function ImageScroller(){
     const interval=2500
     
     return(
-        <Carousel data-bs-theme="dark" indicators={false} controls={false}>
+        <Carousel data-bs-theme="dark" indicators={false} controls={true}>
       <Carousel.Item interval={interval}>
         <div className='image-container'>
         <img
