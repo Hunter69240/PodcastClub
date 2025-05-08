@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+.VideoCard{
+    width: 100%;
+    min-width: 1400px;
+    height: 350px;
+    background-color: #0e2828;
+    margin: 20px auto;
+    margin-bottom: 20px;
+    display: flex;
+    
+    
+}
+
+.VideoText{
+    margin: 25px;
+}
+.Player{
+    width: 50%;
+    flex-shrink: 0;
+}
+.title{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Playfair Display',serif;
+    color: #a7b8b8;
+}
+
+.description{
+    margin-left: 10px;
+    margin-right: 20px;
+    font-family: 'Playfair Display',serif;
+    text-align: justify;
+    color: #a7b8b8;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.link{
+ 
+    margin-left: 15px;
+    margin-top: 20px;
+   
+}

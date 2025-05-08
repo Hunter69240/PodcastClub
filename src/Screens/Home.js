@@ -7,7 +7,6 @@ function Home() {
   return (
     <div className="Container">
         <Header/>
-        <div className="line"></div>
         <ImageScroller/>
         <Footer/>
     </div>
