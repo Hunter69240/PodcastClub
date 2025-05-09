@@ -1,16 +1,15 @@
-// Import necessary libraries
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 
-// Create an Express app
-const app = express();
-app.use(cors()); // Allow cross-origin requests
-app.use(express.json()); // Parse JSON in requests
 
-// MongoDB connection setup
+const app = express();
+app.use(cors()); 
+app.use(express.json()); 
+
+
 const mongoURI = 'mongodb+srv://aids:Aidss@podcastclub.es8hkbg.mongodb.net/atriaShows?retryWrites=true&w=majority';
- // Replace this with your actual connection string from MongoDB Atlas
+ 
 
 mongoose.connect(mongoURI, {
   useNewUrlParser: true,
@@ -19,7 +18,7 @@ mongoose.connect(mongoURI, {
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.log('MongoDB connection error: ', err));
 
-// Define a simple schema for video
+
 const VideoSchema = new mongoose.Schema({
   title: String,
   description: String,
@@ -29,7 +28,7 @@ const VideoSchema = new mongoose.Schema({
 
 const Video = mongoose.model('Video', VideoSchema);
 
-// API endpoint to get all videos from the database
+
 app.get('/videos', async (req, res) => {
   try {
     const videos = await Video.find();
@@ -39,7 +38,7 @@ app.get('/videos', async (req, res) => {
   }
 });
 
-// Start the server on port 5000
+
 app.listen(5000, () => {
   console.log('Server is running on port 5000');
 });

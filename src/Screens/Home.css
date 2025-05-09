@@ -13,8 +13,6 @@ body {
 }
 
 
-
-
 .Navigation {
   background-color: rgb(8, 23, 23);
   color: white;
@@ -29,4 +27,17 @@ body {
 
 .ImageScroller {
   margin-bottom: 20px;
+}
+
+
+.chat{
+  background-color: pink;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 2;
+  
 }

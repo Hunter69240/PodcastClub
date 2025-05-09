@@ -42,5 +42,19 @@
   },
   "devDependencies": {
     "react-router-dom": "^7.5.3"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hunter69240/PodcastClub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Hunter69240/PodcastClub/issues"
+  },
+  "homepage": "https://github.com/Hunter69240/PodcastClub#readme"
 }

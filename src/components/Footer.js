@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa'; // Importing icons
-import './Footer.css'; // Make sure to import your CSS file
+import { FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa'; 
+import './Footer.css'; 
 
 function Footer() {
   return (
@@ -12,7 +12,7 @@ function Footer() {
         <p className='follow'>Follow us on social media</p>
 
         <div className="social-links">
-          {/* Social Media Icons with Links */}
+          
           <a href="https://www.instagram.com/atriapodcastclub" target="_blank" rel="noopener noreferrer">
             <FaInstagram size={30} />
           </a>

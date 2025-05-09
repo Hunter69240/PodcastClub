@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 .footer {
-    background-color: rgb(8, 23, 23); /* Dark background color */
+    background-color: rgb(8, 23, 23); 
     padding: 10px;
-    color: rgb(241, 249, 249); /* Light text color */
+    color: rgb(241, 249, 249); 
     text-align: center;
     position: relative;
     bottom: 0;
     width: 100%;
-    margin-top: auto; /* Forces footer to stay at the bottom */
+    margin-top: auto; 
+    font-family: 'Playfair Display',serif;
 }
 
 
@@ -22,8 +25,8 @@
 .social-links {
     margin-top: 10px;
     display: flex;
-    justify-content: flex-start; /* Align items to the center */
-    gap: 20px; /* Space between icons */
+    justify-content: flex-start; 
+    gap: 20px; 
    
 }
 

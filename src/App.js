@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router';  // Import Routes properly
+import { BrowserRouter as Router, Routes, Route } from 'react-router';  
 import Home from '../src/Screens/Home'; 
 import Shows from '../src/Screens/Shows';
 
