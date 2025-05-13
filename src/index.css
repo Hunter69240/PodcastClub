@@ -1,13 +1,22 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Dancing+Script:wght@400..700&family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+DK+Loopet:wght@100..400&family=Shafarik&display=swap');body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
+  font-family: 'Playwrite', sans-serif;
+  font-weight: 400;
+  font-style: normal;  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 ,p {
+font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+margin: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
