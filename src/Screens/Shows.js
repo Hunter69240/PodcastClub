@@ -9,7 +9,7 @@ function Shows() {
     const [videoURL,SetvideoURL]=useState([])
 
     useEffect(()=>{
-        fetch('http://localhost:5000/videos')
+        fetch('http://beta.atriapodcastclub.in:5000/videos')
         .then(response=>response.json())
         .then(data=>SetvideoURL(data))
         .catch(error =>console.error("Error",error));

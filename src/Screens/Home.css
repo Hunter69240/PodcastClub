@@ -10,10 +10,9 @@ body {
   min-height: 100vh; 
   background-color: rgb(8, 23, 23);
   width: 100%;
+  position: relative;
+  overflow-x: hidden;
 }
-
-
-
 
 .Navigation {
   background-color: rgb(8, 23, 23);
@@ -25,8 +24,35 @@ body {
   align-items: center;
 }
 
-
-
 .ImageScroller {
   margin-bottom: 20px;
+}
+
+
+.animation-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(8, 23, 23);
+  z-index: 999;
+}
+
+
+.logo-animation-container {
+  position: fixed;
+  z-index: 1000;
+  transform-origin: center center;
+}
+
+
+.intro-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: cover; 
+  border-radius: 50%; 
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4); 
+  border: 3px solid rgba(241, 249, 249, 0.1); 
+  background-color: rgb(8, 23, 23); 
 }

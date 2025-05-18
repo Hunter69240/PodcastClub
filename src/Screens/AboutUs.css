@@ -1,0 +1,21 @@
+.Container{
+    background-color:  rgb(8, 23, 23);
+}
+
+.President{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.row-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+
+.Insta :hover{
+    color: blue;
+}

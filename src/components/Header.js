@@ -1,34 +1,28 @@
 import React from 'react';
 import podcastLogo from '../Images/logo.jpeg';
 import { Link } from 'react-router-dom';
-import './Header.css'
+import './Header.css';
 
-function Header(){
+function Header({ hideLogo }) {
     return (
       <>
-        <div className="Header">
+        <header className="Header">
           <div className='header-left'>
-            <img alt='podcastlogo' src={podcastLogo} className='logo'/>
+            {!hideLogo && (
+              <img alt='podcastlogo' src={podcastLogo} className='logo' />
+            )}
             <p className="name">Atria Podcast Club</p>
           </div>
           <div className='Navigation'>
-          
-            <Link to="/Home" className="nav-link">Home</Link>
-            <Link to="/AbousUs" className="nav-link">About Us</Link>
-            <Link to="/Shows" className="nav-link">Shows</Link>
-            <Link to="/Engagewithus" className="nav-link">Engage with us</Link>
-            <Link to="/AboutUs" className='nav-link'>Contact us</Link>
-            
+            <Link to="/Home" className="nav-link"><p>Home</p></Link>
+            <Link to="/AboutUs" className="nav-link"><p>About Us</p></Link>
+            <Link to="/Shows" className="nav-link"><p>Shows</p></Link>
+            <Link to="/Contactus" className="nav-link"><p>Contact us</p></Link>
           </div>
-         
-            
-          
-        </div>
-          <div className="line"></div>
-        </>
-        
-      
-    )
+        </header>
+        <div className="line"></div>
+      </>
+    );
 }
 
 export default Header;
